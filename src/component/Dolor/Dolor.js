@@ -6,17 +6,6 @@ function Dolor () {
             <div className='dolor-main'>
                 <div className='container'>
                     <h1 className='mb-5'>Dolor</h1>
-                    {/* <div className='dolor-tree-main'>
-                        <div>
-                            <p> Ac nec ultrices ut eu, ut. Elit vitae augue et ac, etiam odio. Suspendisse amet hac in dolor vivamus quis.</p>
-                            <p> Ac nec ultrices ut eu, ut. Elit vitae augue et ac, etiam odio. Suspendisse amet hac in dolor vivamus quis.</p>
-                        </div>
-                        <div><img src={tree} alt="" /></div>
-                        <div>
-                            <p> Ac nec ultrices ut eu, ut. Elit vitae augue et ac, etiam odio. Suspendisse amet hac in dolor vivamus quis.</p>
-                            <p> Ac nec ultrices ut eu, ut. Elit vitae augue et ac, etiam odio. Suspendisse amet hac in dolor vivamus quis.</p>
-                        </div>
-                    </div> */}
                     <div className='conatiner tree-main'>
                         <div>
                             <div className='tree-inner-section'>

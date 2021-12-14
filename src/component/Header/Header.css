@@ -29,6 +29,16 @@
 .h-icon a{
     margin-right: 20px;
 }
+@media only screen and (max-width: 600px) {
+    .Hchild-1 h1 {
+        font-size: 100px;
+    }
+    .Hchild-1>div {
+        position: relative;
+        top: 120px;
+        left: 6px;
+    }
+}
 @media only screen and (max-width: 360px) {
     .Hchild-1 h1 {
         font-size: 100px;

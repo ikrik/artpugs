@@ -85,3 +85,11 @@
         width: 50px;
     }
   }
+  @media only screen and (max-width: 375px) {
+    .t-col-left-span {
+        width: 35px;
+    }
+    .t-col-right-span {
+        width: 35px;
+    }
+  }

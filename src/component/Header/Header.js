@@ -10,13 +10,13 @@ function Header () {
         <div>
             <div className='container-fluid'>
                 <div className='row Header-main'>
-                    <div className='col-5 Hchild-1'>
+                    <div className='col-md-5 Hchild-1'>
                         <div>
                             <h1>Feug <br/> iat</h1>
                             <p>Pulvinar sit id lacus, maecenas!</p>
                         </div>
                         </div>
-                    <div className='col-7 Hchild-2'></div>
+                    <div className='col-md-7 Hchild-2'></div>
                 </div>
                 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
                     <div class="container-fluid">
@@ -26,7 +26,7 @@ function Header () {
                         </button>
                         <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
+                            <li class="nav-item ml-5">
                             <a class="nav-link text-white" href="/Faucibus">Faucibus</a>
                             </li>
                             <li class="nav-item">
