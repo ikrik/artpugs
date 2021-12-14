@@ -1,0 +1,36 @@
+.Header-main{
+    height: 650px;
+}
+.Hchild-1{
+    background-color: #F5E3E3;
+}
+.Hchild-1>div{
+   position: relative;
+   top: 120px;
+   left: 60px;
+}
+.Hchild-1 h1{
+    font-family: Anton;
+    font-style: regular;
+    font-size: 140px;
+}
+.Hchild-1 p{
+    font-family: Share Tech;
+    font-style: regular;
+    font-weight: 400;
+}
+.Hchild-2{
+    background-color: #6E974D;
+}
+.navbar{
+    background: linear-gradient(180deg, rgba(211, 48, 133, 0.3741) 0%, rgba(101, 80, 55, 0) 49.79%, rgba(226, 212, 218, 0.0348) 49.8%);
+    font-family: Anton;
+}
+.h-icon a{
+    margin-right: 20px;
+}
+@media only screen and (max-width: 360px) {
+    .Hchild-1 h1 {
+        font-size: 100px;
+    }
+}

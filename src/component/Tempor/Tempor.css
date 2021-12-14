@@ -1,0 +1,52 @@
+.tempor-main{
+    height: 500px;
+    background-color: #EFE05D;
+}
+#carouselExampleControls {
+    width: 70%;
+    position: relative;
+    left: 70px;
+    top: 100px;
+}
+.carousel-control-prev img{
+    width: 40px;
+}
+.carousel-control-next img{
+    width: 40px;
+}
+.carousel-control-prev{
+    width: 0% !important;
+}
+.carousel-control-prev img{
+    width: 40px;
+}
+.carousel-control-next{
+    width: 0% !important;
+}
+@media only screen and (max-width: 600px) {
+    .tempor-main{
+        height: 800px;
+    }
+    .tempor-text{
+        margin-top: 90px;
+    }
+    #carouselExampleControls {
+        width: 70%;
+        left: 50%;
+        top: 70px;
+        transform: translate(-50%);
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    /* .tempor-text{
+        margin-top: 90px;
+    } */
+    #carouselExampleControls {
+        width: 70%;
+        left: 50%;
+        top: 70px;
+        transform: translate(-50%);
+    }
+  }

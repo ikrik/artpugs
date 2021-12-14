@@ -1,0 +1,87 @@
+.dolor-main{
+    background-color: #E5E5E5;
+    /* height: 700px; */
+}
+.dolor-main h1{
+    font-family: Anton;
+    font-size: 56px;
+    text-transform: uppercase;
+    padding-top: 130px;
+    text-align: center;
+}
+.dolor-tree-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.dolor-tree-main p{
+    font-size: 1vw;
+}
+.dolor-tree-main img{
+    width: 100%;
+}
+.tree-main{
+    display: grid;
+    grid-template-columns: 1fr 5px 1fr;
+}
+.tree-main p{
+    font-family: Share Tech;
+}
+.middle{
+    background-color: #DFB6FF;
+    border-radius:50px;
+}
+.tree-inner-section{
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    position: relative;
+}
+
+.t-col-left-span{
+    width: 100px;
+    height: 5px;
+    background-color: #DFB6FF;
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+}
+.circle-div {
+    background-color: #EFE05D;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid #DFB6FF;
+    top: -10px;
+    left: 0px;
+}
+.tree-inner-section-right{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    position: relative;
+}
+.t-col-right-span {
+    width: 100px;
+    height: 5px;
+    background-color: #DFB6FF;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+.circle-div-right{
+    background-color: #81D1FF;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid #DFB6FF;
+    top: -10px;
+    right: 0px;
+}
+@media only screen and (max-width: 600px) {
+    .t-col-left-span {
+        width: 50px;
+    }
+    .t-col-right-span {
+        width: 50px;
+    }
+  }
