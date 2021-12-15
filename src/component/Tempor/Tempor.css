@@ -53,3 +53,27 @@
         flex-direction: column-reverse;
     }
   }
+  @media only screen and (max-width: 768px) {
+    .carousel-control-prev-icon {
+        margin-left: -47px;
+    }
+    .carousel-control-next-icon {
+        margin-right: -47px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .carousel-control-prev-icon {
+        margin-left: -42px;
+    }
+    .carousel-control-next-icon {
+        margin-right: -42px;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .carousel-control-prev-icon {
+        margin-left: -32px;
+    }
+    .carousel-control-next-icon {
+        margin-right: -32px;
+    }
+  }
