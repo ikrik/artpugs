@@ -20,3 +20,14 @@
     background-color: transparent !important;
     border: 0px solid black !important;
 }
+@media only screen and (max-width: 600px) {
+    .sag-second-mobile-row{
+        flex-direction: column-reverse;
+    }
+    h5.card-title.text-end {
+        text-align: start !important;
+    }
+    p.card-text.text-end {
+        text-align: start !important;
+    }
+}

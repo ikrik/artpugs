@@ -5,7 +5,7 @@ function Sagittis () {
     return (
         <div>
             <div className='Sagittis-main'>
-                <div className='p-5'>
+                <div className='container p-5'>
                     <h1 className='text-center mt-3 mb-5'>Sagittis</h1>
                     <div class="card mb-3">
                         <div class="row g-0">
@@ -23,7 +23,7 @@ function Sagittis () {
                         </div>
                     </div>
                     <div class="card mb-3">
-                        <div class="row g-0">
+                        <div class="row sag-second-mobile-row g-0">
                             <div class="col-md-10">
                                 <div class="card-body">
                                     <h5 class="card-title text-end">Mattis et arcu sed nunc cras tincidunt leo.</h5>

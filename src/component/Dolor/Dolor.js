@@ -6,7 +6,7 @@ function Dolor () {
             <div className='dolor-main'>
                 <div className='container'>
                     <h1 className='mb-5'>Dolor</h1>
-                    <div className='conatiner tree-main'>
+                    <div className='tree-main'>
                         <div>
                             <div className='tree-inner-section'>
                                 <div>

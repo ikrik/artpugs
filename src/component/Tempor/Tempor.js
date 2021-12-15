@@ -1,41 +1,53 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './Tempor.css'
+import Carousel from 'react-bootstrap/Carousel'
 import slider1 from '../../images/slider.png'
 import slider2 from '../../images/slider.png'
 import slider3 from '../../images/slider.png'
-import leftarrow from '../../images/arrowleft.png'
-import rightarrow from '../../images/arrowright.png'
+import $ from 'jquery'
 function Tempor () {
+    useEffect(() => {
+        $('a[class^=carousel-control-]').click(function (event) {
+            event.preventDefault();
+        });
+    }, [])
     return (
         <div className='tempor-main'>
-            <div className='container row'>
-                <div className='col-md-7 t-child1'>
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src={slider1} alt="First slide"/>
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src={slider2} alt="Second slide"/>
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src={slider3} alt="Third slide"/>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                            <img src={leftarrow} alt="" />
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                            <img src={rightarrow} alt="" />
-                        </a>
+            <div className='container p-5'>
+                <div className='row tempor-main-row'>
+                    <div className='col-md-7 t-child1'>
+                        <Carousel>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                src={slider1}
+                                alt="First slide"
+                                />
+                                
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                src={slider2}
+                                alt="Second slide"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                src={slider3}
+                                alt="Third slide"
+                                />
+                            </Carousel.Item>
+                        </Carousel>
                     </div>
-                </div>
-                <div className='col-md-5 d-flex justify-content-center align-items-center'>
-                    <div>
-                        <h1 className='tempor-text'>Tempor porttitor</h1>
-                        <p>Donec scelerisque et pellentesque ac massa. Tempus massa adipiscing sed enim nisi, eu duis. Facilisi ipsum aliquam tincidunt rhoncus suspendisse. Vitae pellentesque ipsum interdum est tristique. Lorem semper pharetra, ut sollicitudin.
-                            Donec scelerisque et pellentesque ac massa. Tempus massa adipiscing sed enim nisi, eu duis. Facilisi ipsum aliquam tincidunt rhoncus suspendisse. Vitae pellentesque ipsum interdum est tristique. Lorem semper pharetra, ut sollicitudin.
-                        </p>
+                    <div className='col-md-5 d-flex justify-content-center align-items-center'>
+                        <div>
+                            <h1 className='tempor-text'>Tempor porttitor</h1>
+                            <p className='tempor-pargrap'>Donec scelerisque et pellentesque ac massa. Tempus massa adipiscing sed enim nisi, eu duis. Facilisi ipsum aliquam tincidunt rhoncus suspendisse. Vitae pellentesque ipsum interdum est tristique. Lorem semper pharetra, ut sollicitudin.
+                                Donec scelerisque et pellentesque ac massa. Tempus massa adipiscing sed enim nisi, eu duis. Facilisi ipsum aliquam tincidunt rhoncus suspendisse. Vitae pellentesque ipsum interdum est tristique. Lorem semper pharetra, ut sollicitudin.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

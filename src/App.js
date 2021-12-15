@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.css';
 import Dolor from './component/Dolor/Dolor';
 import Factis from './component/Factis/Factis';
