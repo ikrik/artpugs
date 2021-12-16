@@ -87,9 +87,14 @@
   }
   @media only screen and (max-width: 375px) {
     .t-col-left-span {
-        width: 35px;
+        width: 45px;
     }
     .t-col-right-span {
-        width: 35px;
+        width: 45px;
+    }
+  }
+  @media only screen and (max-width: 340px) {
+    .tree-inner-section-right p{
+        text-align: right;
     }
   }

@@ -24,7 +24,7 @@
     background-color: #6E974D;
 }
 .navbar{
-    background: linear-gradient(180deg, rgba(211, 48, 133, 0.3741) 0%, rgba(101, 80, 55, 0) 49.79%, rgba(226, 212, 218, 0.0348) 49.8%);
+    background: linear-gradient(180deg, rgb(251 16 139 / 37%),rgba(101,80,55,0) 100%,rgba(226,212,218,.0348) 100%);
     font-family: Anton;
 }
 .h-icon a{
@@ -129,6 +129,9 @@
     }
 /* humburger */
 @media only screen and (max-width: 768px) {
+    .navbar{
+        background: rgb(171 68 163);
+    }
     .Hchild-1 h1 {
         font-size:16vw;
     }
