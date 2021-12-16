@@ -1,9 +1,9 @@
 import React,{useEffect} from 'react';
 import './Tempor.css'
 import Carousel from 'react-bootstrap/Carousel'
-import slider1 from '../../images/slider.png'
-import slider2 from '../../images/slider.png'
-import slider3 from '../../images/slider.png'
+import slider1 from '../../images/slider1.png'
+import slider2 from '../../images/slider2.png'
+import slider3 from '../../images/slider3.png'
 import $ from 'jquery'
 function Tempor () {
     useEffect(() => {
