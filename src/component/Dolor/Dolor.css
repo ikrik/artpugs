@@ -78,17 +78,19 @@
     right: 0px;
 }
 @media only screen and (max-width: 600px) {
-    .circle-div {
-        border: 5px solid transparent;
-    }
-    .circle-div-right {
-        border: 5px solid transparent;
-    }
     .t-col-left-span {
         width: 50px;
     }
     .t-col-right-span {
         width: 50px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .circle-div {
+        border: 5px solid transparent;
+    }
+    .circle-div-right {
+        border: 5px solid transparent;
     }
   }
   @media only screen and (max-width: 375px) {
