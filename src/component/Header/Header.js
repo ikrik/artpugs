@@ -10,7 +10,7 @@ function Header () {
     useEffect(() => {
         $(function() {
             $(window).on("scroll", function() {
-                $("body").toggleClass("scrolled", $(document).scrollTop() > 50);
+                $(".navbar").toggleClass("scrolled", $(document).scrollTop() > 50);
             })
         });
 
