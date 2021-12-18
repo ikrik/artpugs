@@ -13,10 +13,11 @@ function Header () {
                 $("body").toggleClass("scrolled", $(document).scrollTop() > 50);
             })
         });
+
         $(document).ready(function () {
             $('.third-button').on('click', function () {
-          
               $('.animated-icon3').toggleClass('open');
+              $('.navbar').toggleClass('background');
             });
           });
     }, [])
@@ -35,8 +36,7 @@ function Header () {
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/"><img src={logo} alt="" /></a>
                     <button class="navbar-toggler third-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    {/* <span class="navbar-toggler-icon"></span> */}
-                    <div class="animated-icon3"><span></span><span></span><span></span></div>
+                        <div class="animated-icon3"><span></span><span></span><span></span></div>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">

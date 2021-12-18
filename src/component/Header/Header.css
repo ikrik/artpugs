@@ -129,7 +129,7 @@
     }
 /* humburger */
 @media only screen and (max-width: 768px) {
-    .navbar{
+    .navbar.background{
         background: rgb(171 68 163);
     }
     .Hchild-1 h1 {
