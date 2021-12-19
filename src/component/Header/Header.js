@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './Header.css';
 import logo from '../../images/logo.png'
+import headerimg from '../../images/header-img.png'
 import reddit from '../../images/header/reddit.png'
 import discord from '../../images/header/discord.png'
 import insta from '../../images/header/instagram.png'
@@ -30,7 +31,9 @@ function Header () {
                         <p>Pulvinar sit id lacus, maecenas!</p>
                     </div>
                 </div>
-                <div className='col-7 Hchild-2'></div>
+                <div className='col-7 Hchild-2'>
+                    <img src={headerimg} alt="" className='w-100 h-100' />
+                </div>
             </div>
             <nav class="navbar navbar-expand-lg navbar-light fixed-top">
                 <div class="container-fluid">

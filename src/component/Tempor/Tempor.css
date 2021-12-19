@@ -21,8 +21,9 @@
     height: 40px !important;
     margin-right: -70px;
 }
-.carousel-item img{
+.carousel-item img {
     height: 500px;
+    object-fit: cover;
 }
 .carousel {
     position: relative;
@@ -39,9 +40,21 @@
 .tempor-pargrap{
     font-family: Share Tech;
 }
+@media only screen and (max-width: 767px) {
+    .tempor-main{
+        height: auto;
+    }
+    .tempor-main-row{
+        flex-direction: column-reverse;
+    }
+    .carousel{
+        top: 0;
+        margin: 0 auto;
+    }
+  }
 @media only screen and (max-width: 600px) {
     .tempor-main{
-        height: 800px;
+        height: auto;
     }
     .carousel {
         margin: 0 auto;
@@ -67,6 +80,10 @@
     }
     .carousel-control-next-icon {
         margin-right: -42px;
+    }
+    .carousel-item img {
+        height: auto;
+        object-fit: cover;
     }
   }
   @media only screen and (max-width: 360px) {

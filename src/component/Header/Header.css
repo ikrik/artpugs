@@ -20,8 +20,12 @@
     font-style: regular;
     font-weight: 400;
 }
-.Hchild-2{
-    background-color: #6E974D;
+.Hchild-2 {
+    height: 100%;
+    padding: 0 !important;
+}
+.Hchild-2 img{
+    object-fit: cover;
 }
 .navbar{
     background: linear-gradient(180deg, rgb(251 16 139 / 37%),rgba(101,80,55,0) 100%,rgba(226,212,218,.0348) 100%);
