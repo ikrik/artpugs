@@ -93,14 +93,14 @@
         width: 50px;
     }
   }
-  @media only screen and (max-width: 768px) {
+  /* @media only screen and (max-width: 768px) {
     .circle-div {
         border: 5px solid transparent;
     }
     .circle-div-right {
         border: 5px solid transparent;
     }
-  }
+  } */
 
   @media only screen and (max-width: 375px) {
     .t-col-left-span {

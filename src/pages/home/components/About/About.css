@@ -10,13 +10,13 @@
     z-index: 1;
 }
 .carousel-control-prev-icon {
-    background-image: url(../../images/arrowleft.png) !important;
+    background-image: url(../../../../images/arrowleft.png) !important;
     width: 40px !important;
     height: 40px !important;
     margin-left: -70px;
 }
 .carousel-control-next-icon {
-    background-image: url(../../images/arrowright.png) !important;
+    background-image: url(../../../../images/arrowright.png) !important;
     width: 40px !important;
     height: 40px !important;
     margin-right: -70px;

@@ -1,0 +1,97 @@
+.mint {
+  background-color: #F5E3E3;
+}
+
+.mint > div {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.minting-wrapper {
+  padding: 108px 0 100px;
+}
+
+.minting-wrapper h3 {
+  font-size: 72px;
+  font-family: Share Tech;
+  color: #1C1E10;
+  text-align: center;
+  margin-bottom: 88px;
+  margin-top: 68px;
+  line-height: 134px;
+}
+
+.minting-wrapper h5 {
+  max-width: 1162px;
+  font-size: 36px;
+  font-family: Share Tech;
+  line-height: 67.03px;
+  margin: 0 auto 80px;
+  color: #1C1E10;
+}
+
+.minting-wrapper h6 {
+  max-width: 1162px;
+  font-size: 24px;
+  font-family: Anton;
+  line-height: 36px;
+  margin: 0 auto;
+  text-align: center;
+  color: #1C1E10;
+}
+
+.minting-wrapper .selector {
+  font-size: 24px;
+  padding: 17px 24px;
+  font-weight: 500;
+  min-width: 234px;
+  color: #707070;
+  border: 1px solid #707070;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: url(../../images/select-arrow.svg) no-repeat right #fff;
+  -webkit-appearance: none;
+  background-position-x: 182px;
+  background-position-y: 28px;
+  display: block;
+  margin: 100px auto;
+}
+
+.minting-wrapper .pay {
+  background: #11F250;
+  border-radius: 159px;
+  color: #1C1E10;
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 530px;
+  min-width: 360px;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  margin: 0 auto 50px;
+  text-align: center;
+  display: block;
+  transition: all 0.5s ease 0s;
+}
+
+.minting-wrapper .pay:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+}
+
+.minting-wrapper .pay span {
+  font-weight: bold;
+  color: #1C1E10;
+}
+
+.gif-wrapper {
+  background: #EFE05D;
+  padding: 250px 0;
+}
+
+.gif {
+  width: 800px;
+  height: 800px;
+  background: #FDA4C8;
+  margin: 0 auto;
+}
